@@ -13,7 +13,7 @@ class GridWorld:
         self.state=self.start
         return self.state
     
-    def step(self,action):
+    def step(self,action): #according to action find next state and reward, return next state reward for next state
         r,c=self.state
         #up
         if(action==0):
