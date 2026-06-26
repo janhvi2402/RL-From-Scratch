@@ -94,3 +94,4 @@ while not done:
     path.append(state)
 
 print(path)
+print(Q)
